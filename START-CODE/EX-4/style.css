@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(16, 98, 205);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 100px;
+}
+.board{
+    background-color: white;
+    margin: auto;
+    width: 80vw;
+    height: 80vh;
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: 140px auto 280px;
+}
+
+.left{
+    background-color: white;
+    border-radius: 10px 0 0 10px;
+}
+
+.middle{
+    background-color: rgb(232, 232, 241);
+}
+
+.right{
+    background-color: white;
+    border-radius: 0 10px 10px 0;
+}
